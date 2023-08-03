@@ -1,3 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  height: 100vh;
+}
 
-/*# sourceMappingURL=estilo-index.css.map */
+/* Dimensiones de los componentes del header */
+#logo {
+  height: 10vh;
+  width: 10vw;
+  justify-content: start;
+}
+
+.vh-3 {
+  height: 3vh;
+}
+
+.vh-10 {
+  height: 10vh;
+}
+
+.vh-20 {
+  height: 20vh;
+}
+
+.vh-30 {
+  height: 30vh;
+}
+
+.vh-40 {
+  height: 40vh;
+}
