@@ -4,15 +4,11 @@
   box-sizing: border-box;
 }
 
-/* body {
-  height: 100vh;
-} */
-
-/* Dimensiones de los componentes del header */
 #logo {
-  height: 10vh;
-  width: 10vw;
+  height: 12vh;
+  width: 15vw;
   justify-content: start;
+  padding-left: 20px;
 }
 
 .vh-3 {
@@ -69,4 +65,160 @@
 
 .vh-120 {
   height: 120vh;
+}
+
+.colorWS {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 1) 63%,
+    rgba(56, 41, 41, 1) 100%
+  );
+}
+.colorWS2 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 0, 0, 1) 20%
+  );
+}
+
+header button {
+  color: white;
+  /* padding-left: ; */
+}
+
+header li {
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+header svg {
+  padding-left: 10px;
+}
+
+#menuFooter {
+  height: 70vh;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+    "logosFooter logosFooter logosFooter logosFooter logosFooter"
+    "contactanos encuentraEmpleo encuentraPersonal socios nosotrosFooter"
+    "sucursales encuentraEmpleo encuentraPersonal usuarios nosotrosFooter";
+}
+
+#logosFooter {
+  background-color: rgb(17, 17, 17);
+  grid-area: logosFooter;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "logoInicialFooter logoInicialFooter logoInicialFooter redesFooter";
+  align-items: center;
+}
+
+#logoInicialFooter {
+  grid-area: logoInicialFooter;
+}
+
+#logoInicialFooter img {
+  height: 20vh;
+}
+
+#redesFooter {
+  grid-area: redesFooter;
+}
+
+#redesFooter ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contactanos {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: white;
+  padding: 10px;
+  display: grid;
+  grid-area: contactanos;
+}
+
+#sucursales {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(200, 150, 59);
+  padding: 10px;
+  display: grid;
+  grid-area: sucursales;
+}
+
+#encuentraEmpleo {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(0, 204, 255);
+  padding: 10px;
+  display: grid;
+  grid-area: encuentraEmpleo;
+}
+
+#encuentraPersonal {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(44, 255, 86);
+  padding: 10px;
+  display: grid;
+  grid-area: encuentraPersonal;
+}
+
+#socios {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(164, 76, 252);
+  padding: 10px;
+  display: grid;
+  grid-area: socios;
+}
+
+#usuarios {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(233, 168, 104);
+  padding: 10px;
+  display: grid;
+  grid-area: usuarios;
+}
+
+#nosotrosFooter {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(247, 46, 197);
+  padding: 10px;
+  display: grid;
+  grid-area: nosotrosFooter;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#derechos {
+  background-color: rgb(17, 17, 17);
+}
+
+footer p {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
