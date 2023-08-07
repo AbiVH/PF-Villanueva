@@ -76,11 +76,17 @@
   );
 }
 .colorWS2 {
-  background: rgb(255, 255, 255);
+  /* background: rgb(255, 255, 255);
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 0, 0, 1) 20%
+  ); */
+  background: rgb(17, 17, 17);
+  background: linear-gradient(
+    0deg,
+    rgba(17, 17, 17, 1) 0%,
+    rgba(255, 0, 0, 1) 7%
   );
 }
 
@@ -99,6 +105,10 @@ header a {
 
 header svg {
   padding-left: 10px;
+}
+
+main p {
+  font-size: medium;
 }
 
 #menuFooter {
@@ -157,6 +167,11 @@ header svg {
   grid-area: sucursales;
 }
 
+#sucursales a:hover {
+  text-decoration: underline;
+  color: rgb(200, 150, 59);
+}
+
 #encuentraEmpleo {
   background-color: rgb(17, 17, 17);
   font-size: large;
@@ -164,6 +179,11 @@ header svg {
   padding: 10px;
   display: grid;
   grid-area: encuentraEmpleo;
+}
+
+#encuentraEmpleo a:hover {
+  text-decoration: underline;
+  color: rgb(0, 204, 255);
 }
 
 #encuentraPersonal {
@@ -175,6 +195,11 @@ header svg {
   grid-area: encuentraPersonal;
 }
 
+#encuentraPersonal a:hover {
+  text-decoration: underline;
+  color: rgb(44, 255, 86);
+}
+
 #socios {
   background-color: rgb(17, 17, 17);
   font-size: large;
@@ -182,6 +207,11 @@ header svg {
   padding: 10px;
   display: grid;
   grid-area: socios;
+}
+
+#socios a:hover {
+  text-decoration: underline;
+  color: rgb(164, 76, 252);
 }
 
 #usuarios {
@@ -193,6 +223,11 @@ header svg {
   grid-area: usuarios;
 }
 
+#usuarios a:hover {
+  text-decoration: underline;
+  color: rgb(233, 168, 104);
+}
+
 #nosotrosFooter {
   background-color: rgb(17, 17, 17);
   font-size: large;
@@ -202,6 +237,11 @@ header svg {
   grid-area: nosotrosFooter;
 }
 
+#nosotrosFooter a:hover {
+  text-decoration: underline;
+  color: rgb(247, 46, 197);
+}
+
 footer ul li {
   list-style: none;
 }
@@ -209,6 +249,36 @@ footer ul li {
 footer a {
   text-decoration: none;
   color: white;
+}
+
+.iconoFooter {
+  padding-right: 20px;
+}
+
+#face:hover {
+  color: rgb(24, 119, 242);
+}
+
+#insta:hover {
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+#twitter:hover {
+  color: rgb(29, 161, 242);
+}
+
+#linkedin:hover {
+  color: rgb(0, 115, 177);
 }
 
 #derechos {
