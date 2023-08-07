@@ -13,7 +13,7 @@
     />
 
     <!-- Archivo CSS -->
-    <link rel="stylesheet" href="../css/personal.css" />
+    <link rel="stylesheet" href="../css/nosotros-estilo.css " />
     <title>V&M Developers</title>
   </head>
   <body>
@@ -120,41 +120,35 @@
                   ></a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item text-center" href="./empleo.html"
+                      <a class="dropdown-item text-center" href="#"
                         >¿Qué buscamos?</a
                       >
                     </li>
 
                     <li><hr class="dropdown-divider" /></li>
                     <li>
-                      <a class="dropdown-item text-start" href="./empleo.html"
+                      <a class="dropdown-item text-start" href="#"
                         >Tiempo Completo</a
                       >
                     </li>
 
                     <li>
-                      <a class="dropdown-item text-start" href="./empleo.html"
+                      <a class="dropdown-item text-start" href="#"
                         >Medio Tiempo</a
                       >
                       <ul>
                         <li class="list-unstyled">
-                          <a
-                            class="dropdown-item text-start"
-                            href="./empleo.html"
+                          <a class="dropdown-item text-start" href="#"
                             >Matutino</a
                           >
                         </li>
                         <li class="list-unstyled">
-                          <a
-                            class="dropdown-item text-start"
-                            href="./empleo.html"
+                          <a class="dropdown-item text-start" href="#"
                             >Vespertino</a
                           >
                         </li>
                         <li class="list-unstyled">
-                          <a
-                            class="dropdown-item text-start"
-                            href="./empleo.html"
+                          <a class="dropdown-item text-start" href="#"
                             >Nocturno</a
                           >
                         </li>
@@ -278,15 +272,28 @@
                   </ul>
                 </li>
 
-                <!-- Nosotros -->
-                <li class="list-unstyled">
-                  <a class="text-decoration-none" href="../pages/nosotros.html">
+                <!-- Dropdown de Nosotros -->
+                <li class="list-unstyled nav-item dropdown">
+                  <a
+                    class="text-decoration-none"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     Nosotros
                   </a>
                 </li>
-                <!-- Contáctanos -->
-                <li class="list-unstyled">
-                  <a class="text-decoration-none" href="#contactanosSpan">
+
+                <!-- Dropdown de Contáctanos -->
+                <li class="list-unstyled nav-item dropdown">
+                  <a
+                    class="text-decoration-none"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     Contáctanos
                   </a>
                 </li>
@@ -297,49 +304,21 @@
       </nav>
     </header>
     <main class="vh-150">
-      <section id="infoPersonal" class="vh-150 bg-info">
-        <div id="mejorTalento">
-          <!-- <h3 id="talentoTitulo">
-            Encuentra el mejor personal de tiempo completo
-          </h3> -->
-          <h2 id="talentoPrincipal">
-            WorldStaff te ayuda a encontrar candidatos destacados en cualquier
-            lugar
-          </h2>
-          <p id="talentoInfo">
-            "Nuestro equipo de profesionales a tiempo completo está listo para
-            abordar tus desafíos más complejos. Con años de experiencia y
-            dedicación, ofrecemos soluciones personalizadas que impulsarán tu
-            éxito. Desde reclutamiento hasta gestión, estamos comprometidos a
-            brindarte el talento que tu empresa necesita para crecer."
+      <div id="nosotros">
+        <div id="nosotrosInfo">
+          <h2>Acerca de nosotros</h2>
+          <p>
+            USA WorldStaff Service es una agencia de empleo que conecta a
+            profesionales con empresas de diversos sectores y garantiza la
+            reducción del tiempo de contratación. Nuestro servicio garantiza que
+            el aspirante encuentre un empleo que cumpla sus expectativas y
+            asimismo que las empresas encuentren profesionales capaces de
+            desempeñarse en las áreas requeridas, evitando que contraten
+            perfiles poco capacitados y aumentando la operatividad de tu empresa
+            en un abrir y cerrar de ojos.
           </p>
-          <button id="talentoBoton">Empieza en minutos</button>
         </div>
-
-        <img
-          id="mejorTalentoFoto"
-          src="../assets/woman-working-laptop.jpg"
-          alt=""
-        />
-
-        <img id="teamsFoto" src="../assets/woman-phone.jpg" alt="" />
-
-        <div id="teams">
-          <!-- <h3 id="teamsTitulo">Encuentra el mejor personal de medio tiempo</h3> -->
-          <h2 id="teamsPrincipal">
-            WorldStaff te conecta con talento de calidad en todo el mundo
-          </h2>
-          <p id="teamsInfo">
-            "Nuestro equipo de expertos a tiempo medio se adapta perfectamente a
-            tus necesidades. Con flexibilidad y conocimiento, ofrecemos
-            soluciones escalables para tus proyectos. Ya sea en crecimiento o en
-            la gestión de operaciones, contamos con profesionales comprometidos
-            que te ayudarán a alcanzar tus metas de manera eficiente y
-            efectiva."
-          </p>
-          <button id="teamsBoton">Empieza en minutos</button>
-        </div>
-      </section>
+      </div>
     </main>
     <footer class="bg-primary vh-70">
       <!-- Menú del footer -->
@@ -419,7 +398,7 @@
         </div>
         <div id="contactanos">
           <div>
-            <span id="contactanosSpan">Contacta con nosotros</span>
+            Contacta con nosotros
             <ul>
               <li>
                 <svg
