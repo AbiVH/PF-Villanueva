@@ -109,30 +109,56 @@ main {
   background-color: #d6249f;
 }
 
-#nosotros {
+#sucursalesPrincipal {
   height: 100vh;
   display: grid;
   justify-content: center;
   align-items: center;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "nosotrosInfo nosotrosImagen";
+  grid-template-areas: "sucursalesImagen sucursalesInfo";
 }
 
-#nosotrosInfo {
-  grid-area: nosotrosInfo;
+#sucursalesInfo {
+  grid-area: sucursalesInfo;
   text-align: center;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "sucursalesInfoParrafo"
+    "sucursalesInfoAplica";
 }
 
-#nosotrosInfo p {
+#sucursalesInfoParrafo {
+  grid-area: sucursalesInfoParrafo;
+  width: 100vh;
+}
+
+#sucursalesInfoAplica {
+  grid-area: sucursalesInfoAplica;
+}
+
+#sucursalesInfoAplica button {
+  border: 3px solid black;
+  padding: 4px;
+  width: 75vh;
+  text-align: start;
+  align-items: center;
+}
+
+#sucursalesInfoAplica svg {
+  margin: 15px;
+}
+
+#sucursalesInfo p {
   text-align: justify;
   font-size: medium;
 }
 
-#nosotrosImagen {
-  grid-area: nosotrosImagen;
+#sucursalesImagen {
+  grid-area: sucursalesImagen;
 }
-
 .centrarImagen {
   justify-content: center;
 }
