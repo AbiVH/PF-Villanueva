@@ -1,0 +1,320 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#logo {
+  height: 12vh;
+  width: 15vw;
+  justify-content: start;
+  padding-left: 20px;
+}
+
+.vh-3 {
+  height: 3vh;
+}
+
+.vh-10 {
+  height: 10vh;
+}
+
+.vh-20 {
+  height: 20vh;
+}
+
+.vh-30 {
+  height: 30vh;
+}
+
+.vh-40 {
+  height: 40vh;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.vh-55 {
+  height: 55vh;
+}
+
+.vh-60 {
+  height: 60vh;
+}
+
+.vh-70 {
+  height: 70vh;
+}
+
+.vh-80 {
+  height: 80vh;
+}
+
+.vh-90 {
+  height: 90vh;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.vh-110 {
+  height: 110vh;
+}
+
+.vh-120 {
+  height: 120vh;
+}
+
+.vh-150 {
+  height: 150vh;
+}
+
+.colorWS {
+  background: rgb(214, 10, 10);
+  background: linear-gradient(
+    0deg,
+    rgba(214, 10, 10, 1) 57%,
+    rgba(17, 17, 17, 1) 100%
+  );
+}
+.colorWS2 {
+  background: rgb(17, 17, 17);
+  background: linear-gradient(
+    0deg,
+    rgba(17, 17, 17, 1) 0%,
+    rgba(255, 0, 0, 1) 7%
+  );
+}
+
+header button {
+  color: white;
+  /* padding-left: ; */
+}
+
+header li {
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+header svg {
+  padding-left: 10px;
+}
+
+main {
+  background-color: #d6249f;
+}
+
+#nosotros {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "nosotrosInfo nosotrosImagen";
+}
+
+#nosotrosInfo {
+  grid-area: nosotrosInfo;
+  text-align: center;
+}
+
+#nosotrosInfo p {
+  text-align: justify;
+  font-size: medium;
+}
+
+#nosotrosImagen {
+  grid-area: nosotrosImagen;
+}
+
+.centrarImagen {
+  justify-content: center;
+}
+
+#menuFooter {
+  height: 70vh;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+    "logosFooter logosFooter logosFooter logosFooter logosFooter"
+    "contactanos encuentraEmpleo encuentraPersonal socios nosotrosFooter"
+    "sucursales encuentraEmpleo encuentraPersonal usuarios nosotrosFooter";
+}
+
+#logosFooter {
+  background-color: rgb(17, 17, 17);
+  grid-area: logosFooter;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "logoInicialFooter logoInicialFooter logoInicialFooter redesFooter";
+  align-items: center;
+}
+
+#logoInicialFooter {
+  grid-area: logoInicialFooter;
+}
+
+#logoInicialFooter img {
+  height: 20vh;
+}
+
+#redesFooter {
+  grid-area: redesFooter;
+}
+
+#redesFooter ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contactanos {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: white;
+  padding: 10px;
+  display: grid;
+  grid-area: contactanos;
+}
+
+#sucursales {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(200, 150, 59);
+  padding: 10px;
+  display: grid;
+  grid-area: sucursales;
+}
+
+#sucursales a:hover {
+  text-decoration: underline;
+  color: rgb(200, 150, 59);
+}
+
+#encuentraEmpleo {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(0, 204, 255);
+  padding: 10px;
+  display: grid;
+  grid-area: encuentraEmpleo;
+}
+
+#encuentraEmpleo a:hover {
+  text-decoration: underline;
+  color: rgb(0, 204, 255);
+}
+
+#encuentraPersonal {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(44, 255, 86);
+  padding: 10px;
+  display: grid;
+  grid-area: encuentraPersonal;
+}
+
+#encuentraPersonal a:hover {
+  text-decoration: underline;
+  color: rgb(44, 255, 86);
+}
+
+#socios {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(164, 76, 252);
+  padding: 10px;
+  display: grid;
+  grid-area: socios;
+}
+
+#socios a:hover {
+  text-decoration: underline;
+  color: rgb(164, 76, 252);
+}
+
+#usuarios {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(233, 168, 104);
+  padding: 10px;
+  display: grid;
+  grid-area: usuarios;
+}
+
+#usuarios a:hover {
+  text-decoration: underline;
+  color: rgb(233, 168, 104);
+}
+
+#nosotrosFooter {
+  background-color: rgb(17, 17, 17);
+  font-size: large;
+  color: rgb(247, 46, 197);
+  padding: 10px;
+  display: grid;
+  grid-area: nosotrosFooter;
+}
+
+#nosotrosFooter a:hover {
+  text-decoration: underline;
+  color: rgb(247, 46, 197);
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.iconoFooter {
+  padding-right: 20px;
+}
+
+#face:hover {
+  color: rgb(24, 119, 242);
+}
+
+#insta:hover {
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+#twitter:hover {
+  color: rgb(29, 161, 242);
+}
+
+#linkedin:hover {
+  color: rgb(0, 115, 177);
+}
+
+#derechos {
+  background-color: rgb(17, 17, 17);
+}
+
+footer p {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
