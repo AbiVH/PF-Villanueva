@@ -105,6 +105,39 @@ header svg {
   padding-left: 10px;
 }
 
+main {
+  background-color: #d6249f;
+}
+
+#nosotros {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "nosotrosInfo nosotrosImagen";
+}
+
+#nosotrosInfo {
+  grid-area: nosotrosInfo;
+  text-align: center;
+}
+
+#nosotrosInfo p {
+  text-align: justify;
+  font-size: medium;
+}
+
+#nosotrosImagen {
+  grid-area: nosotrosImagen;
+}
+
+.centrarImagen {
+  display: flex;
+  justify-content: center;
+}
+
 #menuFooter {
   height: 70vh;
   display: grid;
