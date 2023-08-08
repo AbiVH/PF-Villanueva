@@ -72,11 +72,11 @@
 }
 
 .colorWS {
-  background: rgb(255, 0, 0);
+  background: rgb(214, 10, 10);
   background: linear-gradient(
     0deg,
-    rgba(255, 0, 0, 1) 63%,
-    rgba(56, 41, 41, 1) 100%
+    rgba(214, 10, 10, 1) 57%,
+    rgba(17, 17, 17, 1) 100%
   );
 }
 .colorWS2 {
