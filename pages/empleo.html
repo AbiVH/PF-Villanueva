@@ -12,6 +12,12 @@
       crossorigin="anonymous"
     />
 
+    <!-- Link de animaciones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <!-- Archivo CSS -->
     <link rel="stylesheet" href="../css/estilo-empleo.css" />
     <title>V&M Developers</title>
@@ -27,14 +33,14 @@
           >
             <!-- Teléfono de la empresa -->
             <ul class="list-unstyled d-flex">
-              <li class="p-4 bg-transparent">
+              <li class="p-4 bg-transparent animate__animated animate__bounce">
                 <a class="text-decoration-none" href=""
                   ><br /><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-telephone"
+                    class="bi bi-telephone animate__animated animate__bounce"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -44,14 +50,14 @@
                   +1(888)-855-5328</a
                 >
               </li>
-              <li class="p-4 bg-transparent">
+              <li class="p-4 bg-transparent animate__animated animate__bounce">
                 <a class="text-decoration-none" href=""
                   ><br /><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-globe"
+                    class="bi bi-globe animate__animated animate__bounce"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -64,7 +70,7 @@
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-caret-down"
+                    class="bi bi-caret-down animate__animated animate__bounce"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -73,7 +79,9 @@
                 ></a>
               </li>
             </ul>
-            <button class="p-3 bg-transparent">
+            <button
+              class="p-3 bg-transparent animate__animated animate__bounce"
+            >
               <img src="" alt="" />Login
             </button>
           </div>
@@ -84,6 +92,7 @@
               <div class="col-3">
                 <a href="../index.html">
                   <img
+                    class="animate__animated animate__bounce"
                     id="logo"
                     src="../assets/v&mheader.png"
                     alt="LogoWorldStaff"
@@ -94,7 +103,9 @@
               <ul
                 class="col-9 d-flex justify-content-around align-items-center vh-10"
               >
-                <li class="list-unstyled nav-item dropdown">
+                <li
+                  class="list-unstyled nav-item dropdown animate__animated animate__bounce"
+                >
                   <a
                     class="text-decoration-none"
                     href="#"
@@ -108,7 +119,7 @@
                       width="30"
                       height="30"
                       fill="currentColor"
-                      class="bi bi-briefcase-fill"
+                      class="bi bi-briefcase-fill animate__animated animate__bounce"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -120,40 +131,46 @@
                   ></a>
                   <ul class="dropdown-menu">
                     <li>
-                      <a class="dropdown-item text-center" href="./empleo.html"
+                      <a
+                        class="dropdown-item text-center animate__animated animate__fadeIn"
+                        href="./empleo.html"
                         >¿Qué buscamos?</a
                       >
                     </li>
 
                     <li><hr class="dropdown-divider" /></li>
                     <li>
-                      <a class="dropdown-item text-start" href="./empleo.html"
+                      <a
+                        class="dropdown-item text-start animate__animated animate__fadeIn"
+                        href="./empleo.html"
                         >Tiempo Completo</a
                       >
                     </li>
 
                     <li>
-                      <a class="dropdown-item text-start" href="./empleo.html"
+                      <a
+                        class="dropdown-item text-start animate__animated animate__fadeIn"
+                        href="./empleo.html"
                         >Medio Tiempo</a
                       >
                       <ul>
                         <li class="list-unstyled">
                           <a
-                            class="dropdown-item text-start"
+                            class="dropdown-item text-start animate__animated animate__fadeIn"
                             href="./empleo.html"
                             >Matutino</a
                           >
                         </li>
                         <li class="list-unstyled">
                           <a
-                            class="dropdown-item text-start"
+                            class="dropdown-item text-start animate__animated animate__fadeIn"
                             href="./empleo.html"
                             >Vespertino</a
                           >
                         </li>
                         <li class="list-unstyled">
                           <a
-                            class="dropdown-item text-start"
+                            class="dropdown-item text-start animate__animated animate__fadeIn"
                             href="./empleo.html"
                             >Nocturno</a
                           >
@@ -163,7 +180,9 @@
                   </ul>
                 </li>
                 <!-- Dropdown de Encuentra Personal -->
-                <li class="list-unstyled align-items-center nav-item dropdown">
+                <li
+                  class="list-unstyled align-items-center nav-item dropdown animate__animated animate__bounce"
+                >
                   <a
                     class="text-decoration-none"
                     href="#"
@@ -177,7 +196,7 @@
                       width="30"
                       height="30"
                       fill="currentColor"
-                      class="bi bi-briefcase-fill"
+                      class="bi bi-briefcase-fill animate__animated animate__bounce"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -190,7 +209,7 @@
                   <ul class="dropdown-menu">
                     <li>
                       <a
-                        class="dropdown-item text-center"
+                        class="dropdown-item text-center animate__animated animate__fadeIn"
                         href="./encuentra-personal.html"
                         >¿Qué buscas?</a
                       >
@@ -199,7 +218,7 @@
                     <li><hr class="dropdown-divider" /></li>
                     <li>
                       <a
-                        class="dropdown-item text-start"
+                        class="dropdown-item text-start animate__animated animate__fadeIn"
                         href="./encuentra-personal.html"
                         >Empleados Tiempo Completo</a
                       >
@@ -207,28 +226,28 @@
 
                     <li>
                       <a
-                        class="dropdown-item text-start"
+                        class="dropdown-item text-start animate__animated animate__fadeIn"
                         href="./encuentra-personal.html"
                         >Empleados Medio Tiempo</a
                       >
                       <ul>
                         <li class="list-unstyled">
                           <a
-                            class="dropdown-item text-start"
+                            class="dropdown-item text-start animate__animated animate__fadeIn"
                             href="./encuentra-personal.html"
                             >Matutino</a
                           >
                         </li>
                         <li class="list-unstyled">
                           <a
-                            class="dropdown-item text-start"
+                            class="dropdown-item text-start animate__animated animate__fadeIn"
                             href="./encuentra-personal.html"
                             >Vespertino</a
                           >
                         </li>
                         <li class="list-unstyled">
                           <a
-                            class="dropdown-item text-start"
+                            class="dropdown-item text-start animate__animated animate__fadeIn"
                             href="./encuentra-personal.html"
                             >Nocturno</a
                           >
@@ -239,7 +258,9 @@
                 </li>
 
                 <!-- Dropdown de Nuestras Sucursales -->
-                <li class="list-unstyled nav-item dropdown">
+                <li
+                  class="list-unstyled nav-item dropdown animate__animated animate__bounce"
+                >
                   <a
                     class="text-decoration-none"
                     href="#"
@@ -253,7 +274,7 @@
                       width="30"
                       height="30"
                       fill="currentColor"
-                      class="bi bi-airplane"
+                      class="bi bi-airplane animate__animated animate__bounce"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -263,7 +284,7 @@
                   <ul class="dropdown-menu">
                     <li>
                       <a
-                        class="dropdown-item text-center"
+                        class="dropdown-item text-center animate__animated animate__fadeIn"
                         href="../pages/sucursales.html"
                         >Miami, FL</a
                       >
@@ -271,7 +292,7 @@
 
                     <li>
                       <a
-                        class="dropdown-item text-center"
+                        class="dropdown-item text-center animate__animated animate__fadeIn"
                         href="../pages/sucursales.html"
                         >New York</a
                       >
@@ -279,7 +300,7 @@
 
                     <li>
                       <a
-                        class="dropdown-item text-center"
+                        class="dropdown-item text-center animate__animated animate__fadeIn"
                         href="../pages/sucursales.html"
                         >New Jersey</a
                       >
@@ -287,14 +308,14 @@
 
                     <li>
                       <a
-                        class="dropdown-item text-center"
+                        class="dropdown-item text-center animate__animated animate__fadeIn"
                         href="../pages/sucursales.html"
                         >Dallas, TX</a
                       >
                     </li>
                     <li>
                       <a
-                        class="dropdown-item text-center"
+                        class="dropdown-item text-center animate__animated animate__fadeIn"
                         href="../pages/sucursales.html"
                         >Pennsylvania</a
                       >
@@ -303,13 +324,13 @@
                 </li>
 
                 <!-- Nosotros -->
-                <li class="list-unstyled">
+                <li class="list-unstyled animate__animated animate__bounce">
                   <a class="text-decoration-none" href="../pages/nosotros.html">
                     Nosotros
                   </a>
                 </li>
                 <!-- Contáctanos -->
-                <li class="list-unstyled">
+                <li class="list-unstyled animate__animated animate__bounce">
                   <a class="text-decoration-none" href="#contactanosSpan">
                     Contáctanos
                   </a>
