@@ -105,10 +105,6 @@ header svg {
   padding-left: 10px;
 }
 
-main {
-  background-color: #d6249f;
-}
-
 #nosotros {
   height: 100vh;
   display: grid;
@@ -131,6 +127,7 @@ main {
 
 #nosotrosImagen {
   grid-area: nosotrosImagen;
+  padding-right: 1%;
 }
 .centrarImagen {
   justify-content: center;

@@ -105,9 +105,9 @@ header svg {
   padding-left: 10px;
 }
 
-main {
+/* main {
   background-color: rgb(8, 88, 121);
-}
+} */
 
 main p {
   font-size: medium;
@@ -127,7 +127,7 @@ main p {
 }
 
 #mejorTalento {
-  background-color: rgba(92, 179, 38, 1);
+  background-color: rgb(255, 255, 255);
   grid-area: mejorTalento;
   padding: 15px;
   display: grid;

@@ -105,10 +105,6 @@ header svg {
   padding-left: 10px;
 }
 
-main {
-  background-color: #d6249f;
-}
-
 #sucursalesPrincipal {
   height: 100vh;
   display: grid;
@@ -158,6 +154,8 @@ main {
 
 #sucursalesImagen {
   grid-area: sucursalesImagen;
+  height: 70vh;
+  padding-left: 1%;
 }
 .centrarImagen {
   justify-content: center;
